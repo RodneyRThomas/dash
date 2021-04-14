@@ -2,7 +2,7 @@ Crafty.init(500,350, document.getElementById('play-game'));
 
 // All Main Entities
 var f1 = Crafty.e('Floor, 2D, Canvas, Color')
-  .attr({x: 0, y: 250, w: 1000, h: 10})
+  .attr({x: 0, y: 250, w: 700, h: 10})
   .color('black');
 
 var player = Crafty.e('2D, Canvas, Color, Twoway, Gravity')

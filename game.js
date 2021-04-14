@@ -1,4 +1,4 @@
-Crafty.init(300,300, document.getElementById('play-game'));
+Crafty.init(500,500, document.getElementById('play-game'));
 
 // All Main Entities
 var f1 = Crafty.e('Floor, 2D, Canvas, Color')
